@@ -9,8 +9,10 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/styles2.css" rel="stylesheet" />
+        
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="food">
@@ -24,7 +26,8 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="home2.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Shop</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Cart</a></li>
+                        li class="nav-item"><a class="nav-link cart" href="cart.html"><ion-icon name="basket"></ion-icon>
+                            Cart <span>0</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -47,18 +50,18 @@
                             </div>
                             <div class="food-card_content">
                                 <div class="food-card_title-section overflow-hidden">
-                                    <h4 class="food-card_title"><a href="#!" class="text-dark">BBQ-Chicken-Wings</a></h4>
+                                    <h4 class="food-card_title"><a href="#!" class="text-dark">BBQ-Chicken-Wings(10pcs)</a></h4>
                                     
                                 </div>
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N2600</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button"  class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart"> Add to Cart</button>
+                                        <button type="button"  class="btn btn-outline-danger add-cart"> Add to Cart</button>
                                        
                                     </div>
                                 </div>							
@@ -74,18 +77,18 @@
                             </div>
                             <div class="food-card_content">
                                 <div class="food-card_title-section overflow-hidden">
-                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Pancakes</a></h4>
+                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Stuffed Crepes</a></h4>
                                    
                                 </div>
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N2000</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button"  class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart"> Add to Cart</button>
+                                        <button type="button"  class="btn btn-outline-danger add-cart"> Add to Cart</button>
                                         
                                     </div>
                                 </div>							
@@ -107,12 +110,12 @@
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N300</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button"  class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart"> Add to Cart</button>
+                                        <button type="button"  class="btn btn-outline-danger add-cart"> Add to Cart</button>
                                        
                                     </div>
                                 </div>							
@@ -132,18 +135,18 @@
                             </div>
                             <div class="food-card_content">
                                 <div class="food-card_title-section overflow-hidden">
-                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Steak</a></h4>
+                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Steak Meat</a></h4>
                                     
                                 </div>
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N2500</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button"  class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart"> Add to Cart</button>
+                                        <button type="button"  class="btn btn-outline-danger add-cart"> Add to Cart</button>
                                        
                                     </div>
                                 </div>							
@@ -160,17 +163,21 @@
                             <div class="food-card_content">
                                 <div class="food-card_title-section overflow-hidden">
                                     <h4 class="food-card_title"><a href="#!" class="text-dark">Gizdodo</a></h4>
+                                    <h4><small>with a side of jollof(optional)</small></h4>
                                     
                                 </div>
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N1000</span>
+                                        </div>
+                                        <div class="food-card_price">
+                                            <span>N3200(optional)</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button" class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart"> Add to Cart</button>
+                                        <button type="button" class="btn btn-outline-danger add-cart"> Add to Cart</button>
                                        
                                     </div>
                                 </div>							
@@ -186,18 +193,18 @@
                             </div>
                             <div class="food-card_content">
                                 <div class="food-card_title-section overflow-hidden">
-                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Chicken Wings and Fries</a></h4>
+                                    <h4 class="food-card_title"><a href="#!" class="text-dark">Fries</a></h4>
                                    
                                 </div>
                                 <div class="food-card_bottom-section">
                                     <div class="d-flex justify-content-between"> 
                                         <div class="food-card_price">
-                                            <span>5.99$</span>
+                                            <span>N600</span>
                                         </div>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
-                                        <button type="button" class="btn btn-outline-danger cd-add-to-cart js-cd-add-to-cart" data-price="25.99"  > Add to Cart</button>
+                                        <button type="button" class="btn btn-outline-danger add-cart"   > Add to Cart</button>
                                        
                                     </div>
                                 </div>							
@@ -237,5 +244,7 @@
         <script>
           AOS.init();
         </script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="main.js"> </script>
         </body>
         </html>
